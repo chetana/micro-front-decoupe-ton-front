@@ -1,4 +1,6 @@
-const rootList = document.getElementsByClassName("pokemon-list")[0];
+const rootList = document.createElement("div");
+rootList.setAttribute("class", "pokemon-list");
+
 const colors = {
     fire: '#FDDFDF',
     grass: '#DEFDE0',
